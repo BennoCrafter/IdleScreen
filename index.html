@@ -4,26 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoFlow</title>
-    <script src="update_text.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="">
+    <!-- Scripts -->
+    <script src="update_text.js"></script>
+    <script src="particels.js"></script>
 </head>
 <body>
-    <script src="particels.js"></script>
     <div id="container">
         <div class="widget-container" id="widget">
              <!-- Place the Widgets here -->
              <img src="Widgets/duck-dancing.gif" alt="duck gif">
-             <img src="Widgets/pixel-cat.gif" alt="duck gif">
+             <img src="Widgets/pixel-cat.gif" alt="cat gif">
              <!-- End of the Widget section -->
         </div>
 
-        <img id="gif" src="Gifs/gif1.gif" alt="Grid GIF" loop> <!-- Replace 'grid.gif' with your grid image -->
-        <div id="current-time">
-            Current Time: 12:30 PM
+        <img id="gif" src="Gifs/gif1.gif" alt="Main gif">
+
+        <div id="text" class="text">
+            <div id="current-time">
+                Current Time: 12:30 PM
+            </div>
+            <div id="weather">
+                Weather: Sunny, 25°C
+            </div>
         </div>
-        <div id="weather">
-            Weather: Sunny, 25°C
-        </div>
+       
         <div class="particles-container">
             <!-- Particles will be generated here -->
         </div>

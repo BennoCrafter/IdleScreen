@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  cursor: none;
 }
 
 #container {
@@ -21,14 +22,15 @@ body {
 }
 
 #gif {
+  margin-bottom: 5px;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 320px;
   height: auto;
   z-index: 1;
-}
 
+}
 
 .widget-container{
   display: flex;
